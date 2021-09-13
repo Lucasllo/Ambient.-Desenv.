@@ -1,0 +1,38 @@
+.cadastro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55vh;
+	margin-bottom: 3rem;
+	padding: 0 3%;
+}
+
+.titulo{
+	background-color: var(--cinza-claro);
+	display: flex;
+	align-items: center;
+	height: 15vh;
+}
+
+.titulo h2{
+	padding: 0 6%;
+}
+
+.cadastro h3{
+	font-size: 3rem;
+	width: 100%;
+    line-height: initial;
+    color: var(--azul-claro);
+}
+
+.cadastro p{
+	width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    font-size: 1.5rem;
+}
+
+.cadastro__link a{
+	font-size: 1.35rem;
+	border: 1px solid var(--cinza-escuro);
+}
