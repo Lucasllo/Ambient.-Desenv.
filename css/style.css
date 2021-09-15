@@ -188,9 +188,8 @@ input[type=submit]:hover{
     	width: 12rem;
     } 
 
-    .menu {
+    .menu,  nav.ativo .menu{
     	display: flex;
-    	direction: ;
     }
 
     .principal__servicos ul{
