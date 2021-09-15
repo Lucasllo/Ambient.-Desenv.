@@ -141,6 +141,35 @@ nav.ativo .menu{
 	display: initial;
 }
 
+input{
+	 width: 100%;
+    padding: 0 0.5rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=submit]{
+    display: block;   
+    cursor: pointer;    
+    margin: 1rem auto; 
+    background-color: var(--cinza-escuro);
+    border-radius: 50px;
+    width: 6rem;
+    height: 3.5rem;
+    color: #ffffff;
+    font-size: 1.3rem;    
+    text-align: center;
+    transition: 500ms;
+
+}
+
+input[type=submit]:hover{
+    background-color: var(--cinza-medio);
+    color: #555555;
+}
+
 @media screen and (min-width: 1024px) {
 
 	.cabecalho__menu--botao{
